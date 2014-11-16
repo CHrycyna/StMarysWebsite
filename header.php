@@ -13,6 +13,7 @@
 	<title> St.Mary's Nursery and Garden Centre</title>
 	
 		<!-- JAVASCRIPTS -->
+	<script async src="static/Scripts/jquery.js"></script>
 	<script>
 		function loadCSS(filename)
 		{
@@ -32,7 +33,6 @@
 		loadCSS("/static/StyleSheets/Lobster.css")
 		loadCSS("/static/StyleSheets/Slabo27.css")
 	</script>
-	<script src="https://code.jquery.com/jquery.js"></script>
 	<script async src="static/bootstrap/js/bootstrap.js" ></script>
 	<script async src="static/Scripts/twitter.js"> </script>
 	<script async src="static/Scripts/facebook.js"> </script>
@@ -51,7 +51,7 @@
 	<div class="seasonal">
 	  	<div class="container main-content">	
 			<header>
-			<div class="border rounded">>
+			<div class="border rounded">
 				<div class="logo-panel">
 					<img class="logo-image" src="/static/imgs/base/StMarysGardenCentre_Logovector_Blue-White.png"/> 
 				</div>

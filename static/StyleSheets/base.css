@@ -40,6 +40,20 @@ strong, b {
 	padding-top: 20px;
 }
 
+.page-not-found
+{
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	#not-found-image
+	{
+		width: 280px;
+		height: auto;
+	}
+}
+
+
 #footer a {
 	color: #CCCCCC;
 }
