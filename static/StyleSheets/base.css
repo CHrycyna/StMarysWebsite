@@ -1,0 +1,351 @@
+html {
+	position: relative;
+	min-height: 100% !important;
+}
+
+header
+{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00498E;
+	font-style: Italic;
+	font-size: 17px;
+	padding-bottom: 25px;
+}
+
+body {
+	background: url("/static/imgs/base/StMarys_Background.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+div.carousel-image {
+	background-color: #000000;
+}
+
+div.carousel-image > img {
+	opacity: 0.85;
+}
+
+ul, ol {
+	padding: 0;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+/* ID Selectors */
+
+#bottom-nav {
+	padding-top: 20px;
+}
+
+#footer a {
+	color: #CCCCCC;
+}
+
+#footer #bottom-info {
+	color:#FFFFFF;
+}
+
+#footer #contact {
+	padding-top: 10px;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+#footer-col
+{
+	vertical-align: middle;
+	height: 100%;
+}
+
+#page {
+	padding-bottom: 15px;
+}
+
+#socialmedia {
+	float: right;
+	width: 100px;
+}
+
+#top-nav {
+	padding-left: 30px;
+}
+
+#footer-logo
+{
+	width: 100px;
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Class Selectors */
+ 
+.brand {
+	float: left;
+	padding: 10px 20px 10px;
+	margin-left: -20px;
+}
+
+#instagram-badge
+{
+	background: url("/static/imgs/base/Instagram-Badge-White.png") no-repeat;
+	background-size: 25px 25px;
+}
+
+#facebook-badge
+{
+	background: url("/static/imgs/base/Facebook-Badge-White.png") no-repeat;
+	background-size: 25px 25px;
+}
+
+#twitter-badge
+{
+	background: url("/static/imgs/base/Twitter-Badge-White.png") no-repeat;
+	background-size: 25px 25px;
+}
+
+.rounded
+{
+	border-radius: 10px;
+}
+
+.main-content
+{
+	margin-top: 25px;
+}
+
+.shadowed
+{
+	-moz-box-shadow:0px 0px 10px 5px #333;
+	-webkit-box-shadow:0px 0px  10px 5px #333;
+	box-shadow:0px 0px 10px 5px #3333;
+}
+
+.contents
+{
+	padding: 25px 100px 25px 100px;
+	background-color: #cec2a2;
+}
+.content {
+	color: #00376a;
+	background-color: #ffffff;
+}
+
+.content p {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.navbar {
+	opacity: 0.9;
+	background-color: #00498E;
+	border-color: #00387D;
+}
+
+.boarder
+{
+	padding: 10px 10px 10px 10px !IMPORTANT;
+	margin-bottom: 15px;
+	background: #00498E repeat;
+}
+
+.col-header
+{
+	text-align: center;
+	color: #00498E;
+	margin-bottom: 8px;
+}
+
+.footer
+{
+	text-align: center;
+	color: #DDDDDD;
+	height: auto !IMPORTANT;
+	padding-bottom: 15px;
+	
+}
+
+.footer a
+{
+	color: #EEEEEE;
+	text-align: left;
+}
+
+.footer-content
+{
+	padding: 10px 0px 10px 0px;
+	margin: 0px auto 0px auto;
+	background-color: #00498E;
+}
+
+.logo-image
+{
+	height: auto;
+	text-align: center;
+}
+
+.logo-panel
+{
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.reference
+{
+	color: #000000;
+}
+
+.social-badge
+{
+	height: 25px;
+	padding-left: 45px;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.social-media
+{
+	margin-bottom: 10px;
+}
+
+.social-col
+{
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: left;
+}
+
+
+.tri-content {
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	height: 200px;
+	background-size: 200px auto;
+	
+}
+
+.tri-h1
+{
+	text-align: center;
+}
+
+.tri-h2
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px !IMPORTANT;
+	margin-bottom: 0px !IMPORTANT;
+	text-align: center;
+}
+
+.tri-panel
+{
+	margin-bottom: 20px;
+	margin: 0px auto 0px auto;
+}
+
+.tri-panel-header
+{
+	font-family: "nexa_rust_sansblack";
+}
+
+@media (max-width: 768px) {
+	.contents
+	{
+		padding: 25px 25px 25px 25px;
+	}
+	.logo-image
+	{
+		width: 280px;
+	}
+	
+	.col-header
+	{
+		size:
+	}
+	
+	.tri-panel
+	{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 275px;
+	}
+	
+	.main-content
+	{
+		margin: 0px 0px 0px 0px;
+	}
+	
+	.footer
+	{
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.container
+	{
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.social-col
+	{
+		margin-left: 40%;
+	}
+	
+	#footer-logo
+	{
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo-image
+	{
+		width: 540px;
+	}
+		
+	.tri-panel
+	{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 350px;
+	}
+	
+	.container
+	{
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.social-col
+	{
+		margin-left: 45%;
+	}
+	
+	#footer-logo
+	{
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.logo-image
+	{
+		width: 540px;
+	}
+}
+
+@media (min-width: 1199px) {
+	.logo-image
+	{
+		width: 540px;
+	}
+
+}
