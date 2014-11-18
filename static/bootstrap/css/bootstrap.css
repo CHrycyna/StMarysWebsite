@@ -3530,8 +3530,8 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 5px 0;
-  margin: 2px 0 0;
+  padding: 0px 0;
+  margin: 0px 40% 0 40%;
   font-size: 14px;
   list-style: none;
   background-color: #00498E;
@@ -4325,7 +4325,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 
@@ -4447,8 +4446,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -4705,8 +4705,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #00498E;
 }
 
 .navbar-default .navbar-brand {

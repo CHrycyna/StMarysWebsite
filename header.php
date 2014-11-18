@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
+<?php require('base-functions.php')?>
+
 <head>
 	<!-- META DATA -->
 	<meta charset="utf-8">
@@ -51,10 +53,32 @@
 	<div class="seasonal">
 	  	<div class="container main-content">	
 			<header>
-			<div class="border rounded">
 				<div class="logo-panel">
-					<img class="logo-image" src="/static/imgs/base/StMarysGardenCentre_Logovector_Blue-White.png"/> 
+					<a href="/">
+						<img class="logo-image" src="/static/imgs/base/StMarysGardenCentre_Logovector_Blue-White.png"/> 
+					</a>
 				</div>
-				<p class="lead">A Growing Tradition.</p>
+				<div id="nav-row" class="row nav-row">
+					<ul class="">
+						<li id="nav-home" <?php setActive("")?>>
+							<a href="/">Home</a>
+						</li>
+						<li id="nav-gift-store" <?php setActive("giftstore")?>>
+							<a href="/giftstore.php">Gift Store</a>
+						</li>
+						<li id="nav-landscaping" <?php setActive("landscaping")?>>
+							<a href="/landscaping.php">Landscaping</a>
+						</li>
+						<li id="nav-garden" <?php setActive("garden")?>>
+							<a href="/garden.php">Garden</a>
+						</li>
+						<li id="nav-blog" <?php setActive("blog")?>>
+							<a href="/blog.php">Blog</a>
+						</li>
+						<li id="nav-events" <?php setActive("events")?>>
+							<a href="/events.php">Events</a>
+						</li>
+						
+					</ul>					
 				</div>
 			</header>	
