@@ -59,7 +59,7 @@
 					</a>
 				</div>
 				<div id="nav-row" class="row nav-row">
-					<ul class="">
+					<ul>
 						<li id="nav-home" <?php setActive("")?>>
 							<a href="/">Home</a>
 						</li>
@@ -78,7 +78,6 @@
 						<li id="nav-events" <?php setActive("events")?>>
 							<a href="/events.php">Events</a>
 						</li>
-						
 					</ul>					
 				</div>
 			</header>	

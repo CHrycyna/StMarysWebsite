@@ -77,9 +77,10 @@ body {
 	background-size: 25px 25px;
 }
 
-#nav-row
+#nav-icon
 {
-	width: 100%;
+	width: 25px;
+	height: auto;
 }
 
 #nav-row ul {
@@ -97,6 +98,30 @@ body {
 #nav-row a {
 	font-family: 'Lobster', cursives;
 	color: #00367a;
+}
+
+@media (max-width: 600px)
+{
+	#nav-row li
+	{
+		width: 33.33333%;
+	}
+}
+
+@media (max-width: 991px)
+{
+	#nav-row ul 
+	{
+		width: 100%;
+		list-style: none;
+		padding: 0px 0 5px 0;
+	}
+
+	#nav-row a {
+		font-family: 'Lobster', cursives;
+		font-size: 15px;
+		color: #cdcdcd;
+	}
 }
 
 @media (max-width: 768px) {
@@ -257,11 +282,27 @@ body {
 	}
 }
 
-.nav-active
+@media (min-width: 992px)
 {
-	padding-top: 5px;
-	background: url("/static/imgs/base/StMarysGardenCentre_Nav_Icon_Active.png") center -35px repeat-x;
+	.nav-active
+	{
+		padding-top: 5px;
+		background: url("/static/imgs/base/StMarysGardenCentre_Nav_Icon_Active.png") center -35px repeat-x;
+	}
+	
+	.nav-row
+	{
+		padding: 15px 0 0 0;
+		background: url("/static/imgs/base/StMarysGardenCentre_Nav_Icon_Inactive.png") center 0px repeat-x;
+		
+	}
 }
+
+.nav-row
+{
+	margin: 0px 0px 0px 0px;
+}
+
 @media (min-width: 992px)
 {
 	.nav-collapse
@@ -269,14 +310,6 @@ body {
 		display: none;
 		visibility: hidden;
 	}
-}
-
-.nav-row
-{
-	margin: 0px 0px 0px 0px;
-	padding: 15px 0 0 0;
-	background: url("/static/imgs/base/StMarysGardenCentre_Nav_Icon_Inactive.png") center 0px repeat-x;
-	
 }
 
 .page-not-found
