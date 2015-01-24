@@ -58,13 +58,24 @@
 						<img class="logo-image" src="/static/imgs/base/StMarysGardenCentre_Logovector_Blue-White.png"/> 
 					</a>
 				</div>
-				<div id="nav-row" class="row nav-row">
-					<ul>
+				<div class="row nav-row">
+					<ul class="nav nav-tabs nav-justified">
 						<li id="nav-home" <?php setActive("")?>>
 							<a href="/">Home</a>
 						</li>
-						<li id="nav-gift-store" <?php setActive("giftstore")?>>
-							<a href="/giftstore.php">Gift Store</a>
+						<li role="presentation" class="dropdown" id="nav-gift-store" <?php setActive("giftstore")?>>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded=false>
+								Gift Store
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="/giftstore.php">Gift Store</a>
+								</li>
+								<li>
+									<a href="#">Action</a>
+								</li>
+							</ul>
 						</li>
 						<li id="nav-landscaping" <?php setActive("landscaping")?>>
 							<a href="/landscaping.php">Landscaping</a>
