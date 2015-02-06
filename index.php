@@ -1,7 +1,7 @@
-<?php 
-	require('header.php');
-?>
+<?php include 'base.php' ?>
 				
+<?php startblock('content') ?>
+
 <div class="contents">
 	<div class="content rounded">
   		<h1 class="tri-h2">Our website isn&#39t quite ready.</h1>
@@ -9,6 +9,4 @@
 	</div>
 </div>
 
-<?php 
-	require('footer.php');
-?>
+<?php endblock() ?>

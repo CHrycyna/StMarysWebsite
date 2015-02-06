@@ -1,6 +1,11 @@
-<?php 
-	require('header.php');
-?>
+<?php include 'base.php' ?>
+
+<?php startblock('css')?>
+<?php superblock()?>
+<link rel="stylesheet" href="/static/StyleSheets/calender.css">
+<?php endblock()?>
+		
+<?php startblock('content') ?>
 
 <div class="contents">
 	<div class="content rounded">
@@ -8,6 +13,4 @@
 	</div>
 </div>
 
-<?php 
-	require('footer.php');
-?>
+<?php endblock() ?>
