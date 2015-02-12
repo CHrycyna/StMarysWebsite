@@ -1,19 +1,21 @@
 (function($) {
 
 	"use strict";
+	
+	var loaded = false;
 
 	var options = {
 		events_source: 'DataController.php?function=getEvents',
 		view: 'month',
 		tmpl_path: 'templates/calendar/',
-		tmpl_cache: true,
+		tmpl_cache: false,
 		day: 'now',
 		onAfterEventsLoad: function(events) {
 			if(!events) {
 				return;
 			}
 			var list = $('#eventlist');
-			
+					
 			function compare(a,b)
 			{
 				if(a.start > b.start)
@@ -27,34 +29,31 @@
 			var currEvent = 0;
 			var MAX_EVENTS = 6;
 
+			
 			$.each(events, function(key, val) {
-				if(currTime < val.start && currEvent < MAX_EVENTS && val.class != 'event-info') 
+				if(currTime < val.start && currEvent < MAX_EVENTS && val.class != 'event-info' && loaded == false) 
 				{
 					var link = document.createElement('a');
-					link.setAttribute("href",val.url);
+					link.setAttribute("href","javascript:void(0)");
 					link.setAttribute("data-event-id-upcoming",val.id);
 					link.setAttribute("data-event-class",val.class);
 					link.setAttribute("class","list-group-item event-item");
 					link.setAttribute("data-toggle","tooltip");
 					link.innerHTML = val.title;
-					
-					link
-					
-					/*
-					$(document.createElement('a'))
-						.html('<a href="'+val.url+
-							'" data-event-id="'+val.id+
-							'" data-event-class="'+val.class+
-							'" class="list-group-item event-item">'+ val.title + '</a>')*/
-					$('#eventlist').append(link);
+
+					list.append(link);
 					currEvent++;
+					
+					if(currEvent == MAX_EVENTS)
+						loaded = true;
 				}
 			});
 			
 			
+			
 		},
 		onAfterViewLoad: function(view) {
-			$('.page-header h3').text(this.getTitle());
+			$('.page-header h1').text(this.getTitle());
 			$('.btn-group button').removeClass('active');
 			$('button[data-calendar-view="' + view + '"]').addClass('active');
 		},
