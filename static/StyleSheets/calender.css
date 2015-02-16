@@ -458,6 +458,13 @@ span[data-cal-date]:hover {
 .cal-month-box .cal-day-today span[data-cal-date] {
   font-size: 1.9em;
 }
+
+@media (max-width: 460px)
+{
+  .cal-month-box .cal-day-today span[data-cal-date] {
+    font-size: 1.2em;
+  }
+}
 .cal-day-holiday span[data-cal-date] {
   color: #800080;
 }
@@ -470,6 +477,12 @@ span[data-cal-date]:hover {
   border-radius: 5px 0 0 5px;
   background-color: #fafafa;
   text-align: right;
+}
+
+@media ( max-width: 767px) {
+  #cal-week-box {
+	visibility: hidden;
+  }
 }
 #cal-day-tick {
   border: 1px solid #e1e1e1;
@@ -499,6 +512,14 @@ span[data-cal-date]:hover {
   font-weight: normal;
   line-height: 22px;
 }
+
+@media (max-width: 991px)
+{
+  #calendar {
+    padding-bottom: 25px;
+  }
+}
+
 .events-list {
   max-height: 47px;
   padding-left: 5px;
@@ -512,4 +533,8 @@ a.cal-event-week {
 }
 .badge-important {
   background-color: #b94a48;
+}
+
+h1 {
+	text-align: center;
 }

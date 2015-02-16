@@ -3,17 +3,22 @@ html {
 	min-height: 100% !important;
 }
 
+html,
+body{
+  overflow-x: hidden;
+}
+
 header
 {
 	text-align: center;
-	color: #FFFFFF;
-	background-color: #00498E;
-	font-size: 17px;
+	font-size: 16px;
 }
 
-body {
-	background: url("/static/imgs/base/StMarys_Background.jpg") no-repeat center center fixed;
-	background-size: cover;
+@media (min-width: 992px)
+{
+  header {
+    font-size: 17px;
+  }
 }
 
 /* ID Selectors */
@@ -163,7 +168,7 @@ body {
 {
 	padding: 10px 10px 10px 10px !IMPORTANT;
 	margin-bottom: 15px;
-	background: #00498E repeat;
+	background: #124b90 repeat;
 }
 
 .brand {
@@ -189,8 +194,10 @@ body {
 }
 
 .content {
+	padding: 10px 0px 10px 0px;
 	color: #00376a;
 	background-color: #ffffff;
+	margin-bottom: 10px;
 }
 
 .content p {
@@ -200,8 +207,9 @@ body {
 
 .contents
 {
-	padding: 25px 100px 25px 100px;
-	background-color: #cec2a2;
+	padding: 15px 15px 15px 15px;
+	background-color: #5b81bb;
+	display: block;
 }
 
 @media (max-width: 767px) {
@@ -243,28 +251,94 @@ body {
 {
 	padding: 10px 0px 10px 0px;
 	margin: 0px auto 0px auto;
-	background-color: #00498E;
+	background-color: #124b90;
 }
 
 .logo-image
 {
-	width: 540px;
-	height: auto;
-	text-align: center;
-	
+	position: absolute;
+	left: 15px;
+	bottom: 0px;
 }
 
-@media (max-width: 767px) {
-	.logo-image
-	{
-		width: 280px;
-	}
+@media (max-width: 767px)
+{
+  .logo-image {
+    left: auto;
+    max-width: 275px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .logo-image {
+    max-width: 275px;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .logo-image {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .logo-image {  	
+    max-width: 450px;
+  }
 }
 
 .logo-panel
 {
-	padding: 10px 0px 10px 0px;
+	position: relative;
+	top: 0;
+	left: 0;
 	text-align: center;
+}
+
+@media (max-width: 767px)
+{
+  .logo-panel {
+	background-color: #124b90;
+  }
+}
+
+.logo-background {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+@media (max-width: 767px)
+{
+  .logo-background {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .logo-background {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .logo-background {
+    max-width: 940px;
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .logo-background {  	
+    max-width: 1140px;
+  }
 }
 
 .main-content
@@ -276,16 +350,6 @@ body {
 	.main-content
 	{
 		margin: 0px 0px 0px 0px;
-	}
-}
-
-@media (min-width: 992px)
-{
-	.nav-row
-	{
-		padding: 15px 0 0 0;
-		background: url("/static/imgs/base/StMarysGardenCentre_Nav_Icon_Inactive.png") center 0px repeat-x;
-		
 	}
 }
 
@@ -398,4 +462,52 @@ body {
 	font-family: "nexa_rust_sansblack";
 }
 
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+ 
+.sidebar-offcanvas > .list-group {
+  margin-top: 15px;
+}
+  
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
 
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}

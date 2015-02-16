@@ -9,25 +9,24 @@
 
 <div class="contents">
 	<div class="content rounded">
-		<div class="row calender">
-	  	<h1 class="tri-h2">Events Calendar</h1>
+		<div class="row calendar">
 		<div class="page-header">
 	
-			<div class="pull-right form-inline">
-				<div class="btn-group">
+			<h1></h1>
+			<div class="row calendar">
+			
+				<div class="col-sm btn-group btn-group-sm">
 					<button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
 					<button class="btn btn-default" data-calendar-nav="today">Today</button>
 					<button class="btn btn-primary" data-calendar-nav="next">Next >></button>
 				</div>
-				<div class="btn-group">
-					<button class="btn btn-warning" data-calendar-view="year">Year</button>
-					<button class="btn btn-warning active" data-calendar-view="month">Month</button>
-					<button class="btn btn-warning" data-calendar-view="week">Week</button>
-					<button class="btn btn-warning" data-calendar-view="day">Day</button>
+				<div class="col-sm btn-group btn-group-sm btn-toggle pull-right">
+					<button class="btn btn-primary" data-calendar-view="year">Year</button>
+					<button class="btn btn-primary active" data-calendar-view="month">Month</button>
+					<button class="btn btn-primary" data-calendar-view="week">Week</button>
+					<button class="btn btn-primary" data-calendar-view="day">Day</button>
 				</div>
 			</div>
-	
-			<h3></h3>
 		</div>
 	
 		<div class="row calender">
@@ -50,6 +49,20 @@
 						<h3 class="modal-title">Event</h3>
 					</div>
 					<div class="modal-body">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h5 class="panel-title">Times</h5>
+								</div>
+								<div id="modal-times" class="panel-body">
+								</div>
+							</div>
+							
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h5 class="panel-title">Comments</h5>
+								</div>
+								<div id="modal-description" class="panel-body"></div>
+							</div>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

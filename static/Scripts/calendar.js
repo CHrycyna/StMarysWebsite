@@ -19,6 +19,21 @@ Date.prototype.getDateFormatted = function() {
 	var date = this.getDate();
 	return date < 10 ? '0' + date : date;
 };
+Date.prototype.getHourFormatted = function() {
+	var hour = this.getHours();
+	if(hour == 0)
+		return 12;
+	return hour < 12 ? hour : hour-12;
+};
+Date.prototype.getMinuteFormatted = function() {
+	var minute = this.getMinutes();
+	return minute < 10 ? '0'+minute : minute;
+};
+Date.prototype.getAMPM = function() {
+	var hour = this.getHours();
+	return hour < 12 ? "AM" : "PM";
+};
+
 if(!String.prototype.format) {
 	String.prototype.format = function() {
 		var args = arguments;
@@ -84,7 +99,7 @@ if(!String.prototype.formatNum) {
 		//" ID of the element of modal window. If set, events URLs will be opened in modal windows.
 		modal:              "#events-modal",
 		//	modal handling setting, one of "iframe", "ajax" or "template"
-		modal_type:         "template",
+		modal_type:         "javascript",
 		//	function to set modal title, will be passed the event as a parameter
 		modal_title:        null,
 		views:              {
@@ -478,7 +493,7 @@ if(!String.prototype.formatNum) {
 				e.end_hour = f.getDate() + ' ' + $self.locale['ms' + f.getMonth()] + ' ' + e.end_hour;
 			}
 
-			if(e.start < start.getTime() && e.end > end.getTime()) {
+			if(e.allday) {
 				data.all_day.push(e);
 				return;
 			}
@@ -980,7 +995,6 @@ if(!String.prototype.formatNum) {
 				});
 		}
 
-
 		$('a[data-event-id]', this.context).on('click', function(event) {
 			event.preventDefault();
 			event.stopPropagation();
@@ -990,14 +1004,12 @@ if(!String.prototype.formatNum) {
 			var event = _.find(self.options.events, function(event) {
 				return event.id == id
 			});
-			
-			console.log(event);
 
 			if(self.options.modal_type == "iframe") {
 				ifrm.attr('src', url);
 				$('.modal-body', modal).html(ifrm);
 			}
-
+			
 			if(!modal.data('handled.bootstrap-calendar') || (modal.data('handled.bootstrap-calendar') && modal.data('handled.event-id') != event.id)) {
 				modal	.off('show.bs.modal')
 					.off('shown.bs.modal')
@@ -1005,28 +1017,49 @@ if(!String.prototype.formatNum) {
 					.on('show.bs.modal', function() {
 						var modal_body = $(this).find('.modal-body');
 						switch(self.options.modal_type) {
+							case "javascript" :
+								console.log("javascript");
+								if(event.allday == true)
+								{
+									var date = new Date ( event.start );
+									$("#modal-times").html(date.toDateString());
+								}
+								else
+								{
+									var sDate = new Date(event.start);
+									var eDate = new Date(event.end);
+
+									var start = sDate.toDateString() + " " + sDate.getHourFormatted() + ":" + sDate.getMinuteFormatted() + " " + sDate.getAMPM();
+									var end   = eDate.toDateString() + " " + eDate.getHourFormatted() + ":" + eDate.getMinuteFormatted() + " " + eDate.getAMPM();
+
+									$("#modal-times").html("<table><tr><td><h5>Start:</h5></td><td><p>"+start+
+											"</p></td></tr><tr><td><h5>End:</h5></td><td>"+end+"</td></tr></table");
+								}
+								
+								$("#modal-description").html(event.desc);
+								break;
+								
 							case "iframe" :
 								var height = modal_body.height() - parseInt(modal_body.css('padding-top'), 10) - parseInt(modal_body.css('padding-bottom'), 10);
 								$(this).find('iframe').height(Math.max(height, 50));
 								break;
 
 							case "ajax":
-								$.ajax({url: url, dataType: "html", async: false, success: function(data) {
-									modal_body.html(data);
+								$.ajax({url: url, dataType: "JSON", async: false, success: function(data) {
 								}});
 								break;
 
 							case "template":
+								console.log("Template");
 								self._loadTemplate("modal");
 								//	also serve calendar instance to underscore template to be able to access current language strings
 								modal_body.html(self.options.templates["modal"]({"event": event, "calendar": self}))
 								break;
 						}
 
-						//	set the title of the bootstrap modal
-						if(_.isFunction(self.options.modal_title)) {
-							modal.find("h3").html(self.options.modal_title(event.title));
-						}
+						self.options.modal_title = event.title;
+						modal.find("h3").html(event.title);
+						
 					})
 					.on('shown.bs.modal', function() {
 						self.options.onAfterModalShown.call(self, self.options.events);
@@ -1037,10 +1070,7 @@ if(!String.prototype.formatNum) {
 					.data('handled.bootstrap-calendar', true).data('handled.event-id', event.id);
 			}
 			modal.modal('show');
-		});
-		
-		
-		
+		});		
 	};
 
 	Calendar.prototype._update_day = function() {

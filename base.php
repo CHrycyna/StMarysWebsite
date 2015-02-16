@@ -12,7 +12,7 @@
 	<meta name="description" content="St.Marys Nursery & Garden Centre" />
 	<meta name="keywords" content="StMarys,Garden,Nursery,Centre,Plants,Landscaping" />
 	<meta name="author" content="Cameron Hrycyna" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
 	
 	<title> St.Mary's Nursery and Garden Centre</title>
 	
@@ -39,97 +39,76 @@
 </head>
 
 <body>
-  	<div class="container main-content">	
-		<header>
-			<div class="logo-panel">
-				<a href="/">
-					<img class="logo-image" src="/static/imgs/base/StMarysGardenCentre_Logovector_Blue-White.png"/> 
-				</a>
+  <div class="container main-content">	
+    <header>
+	  <div class="logo-panel">
+		<img class="logo-background" src="/static/imgs/base/StMarys-Logo_Wave-Only.png"/> 
+		<a href="/"><img class="logo-image" src="/static/imgs/base/StMarys-Logo_White-Text.png"/></a>
+	  </div>
+	  <nav class="navbar">
+	    <div class="container-fluid">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav nav-tabs nav-justified">
+            <li id="nav-home" <?php setActive("")?>><a href="/">Home</a></li>	
+			<li id="nav-garden" <?php setActive("garden")?>><a href="/garden.php">Garden Center</a></li>
+			<li id="nav-giftstore" <?php setActive("giftstore")?>><a href="/giftstore.php">Gift Store</a></li>
+			<li id="nav-landscaping" <?php setActive("landscaping")?>><a href="/landscaping.php">Landscaping</a></li>
+			<li id="nav-events" <?php setActive("events")?>><a href="/events.php">Events</a></li>
+			<li id="about-us"><a href="aboutus.php">About Us</a></li>
+          </ul>
+        </div>
+	  </nav>
+	</header>
+    <?php emptyblock('content')?>
+	<!-- END: content -->
+	<div class="footer">
+	  <div class="row col-wrap footer-content">
+	    <div id="footer-col" class="col-md-4">
+		  St.Marys Nursery & Garden Centre Ltd.
+		  <br>
+		  2901 St.Mary's Road
+		  <br>
+		  Winnipeg, Manitoba, R2N4A6
+		  <br>
+		  <div id="contact-information">
+		    <a id="contact-email" href="mailto:garden@stmarysnursery.com">Contact Us  </a>
+			| 
+			<a id="contact-phone" href="tel:2042557353">  (204) 255-7353</a>
+		  </div>
+		</div>
+	    <div id="footer-col" class="col-md-4">
+		  <img id="footer-logo" src="/static/imgs/base/StMarysGardenCenter_Icon.png"/>
+		</div>
+		<div id="footer-col" class="col-md-4">
+		  <div class="social-col">
+			<div class="row ">
+			  <a id="instagram-badge" class="social-badge" href="http://instagram.com/stmarysnursery?ref=badge">Instagram</a>
 			</div>
-			<div class="row nav-row">
-				<ul class="nav nav-tabs nav-justified">
-					<li id="nav-home" <?php setActive("")?>>
-						<a href="/">Home</a>
-					</li>
-					<li role="presentation" class="dropdown" id="nav-gift-store" <?php setActive("giftstore")?>>
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded=false>
-							Gift Store
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu" role="menu">
-							<li>
-								<a href="/giftstore.php">Gift Store</a>
-							</li>
-							<li>
-								<a href="#">Action</a>
-							</li>
-						</ul>
-					</li>
-					<li id="nav-landscaping" <?php setActive("landscaping")?>>
-						<a href="/landscaping.php">Landscaping</a>
-					</li>
-					<li id="nav-garden" <?php setActive("garden")?>>
-						<a href="/garden.php">Garden</a>
-					</li>
-					<li id="nav-blog" <?php setActive("blog")?>>
-						<a href="/blog.php">Blog</a>
-					</li>
-					<li id="nav-events" <?php setActive("events")?>>
-						<a href="/events.php">Events</a>
-					</li>
-				</ul>					
+			<div class="row ">
+			  <a id="facebook-badge" class="social-badge" href="https://www.facebook.com/pages/St-Marys-Nursery-and-Garden-Centre-Ltd/128776243867073">Facebook</a>
 			</div>
-		</header>
-		<?php emptyblock('content')?>
-		<!-- END: content -->
-		<div class="footer">
-			<div class="row col-wrap footer-content">
-				<div id="footer-col" class="col-md-4">
-					St.Marys Nursery & Garden Centre Ltd.
-					<br>
-			  		2901 St.Mary's Road
-		  			<br>
-		  			Winnipeg, Manitoba, R2N4A6
-		  			<br>
-		  				
-					<br>
-					<div id="contact-information">
-						<a id="contact-email" href="mailto:garden@stmarysnursery.com">Contact Us  </a>
-						 | 
-						<a id="contact-phone" href="tel:2042557353">  (204) 255-7353</a>
-					</div>
-				</div>
-				<div id="footer-col" class="col-md-4">
-					<img id="footer-logo" src="/static/imgs/base/StMarysGardenCenter_Icon.png"/>
-				</div>
-				<div id="footer-col" class="col-md-4">
-					<div class="social-col">
-						<div class="row ">
-							<a id="instagram-badge" class="social-badge" href="http://instagram.com/stmarysnursery?ref=badge">
-								Instagram
-							</a>
-						</div>
-						<div class="row ">
-							<a id="facebook-badge" class="social-badge" href="https://www.facebook.com/pages/St-Marys-Nursery-and-Garden-Centre-Ltd/128776243867073">
-								Facebook
-							</a>
-						</div>
-						<div class="row ">
-							<a id="twitter-badge" class="social-badge" href="https://twitter.com/StMarysNursery">
-								Twitter
-							</a>
-						</div>
-					</div>
-				</div>
+			<div class="row ">
+			  <a id="twitter-badge" class="social-badge" href="https://twitter.com/StMarysNursery">Twitter</a>
 			</div>
-		</div> <!-- END: footer  -->
-	</div> <!-- END: container main-content -->	
-  </body>
+		  </div>
+		</div>
+	  </div>
+	</div> <!-- END: footer  -->
+  </div> <!-- END: container main-content -->	
+</body>
   
-  <?php startblock('scripts') ?>
-  <script src="static/Scripts/bootstrap.js" ></script>
-  <script src="static/Scripts/twitter.js"> </script>
-  <script src="static/Scripts/facebook.js"> </script>
-  <script src="static/Scripts/underscore-min.js"></script>
-  <?php endblock () ?>
+<?php startblock('scripts') ?>
+<script src="static/Scripts/bootstrap.js" ></script>
+<script src="static/Scripts/twitter.js"> </script>
+<script src="static/Scripts/facebook.js"> </script>
+<script src="static/Scripts/underscore-min.js"></script>
+<script src="static/Scripts/offcanvas.js"></script>
+<?php endblock () ?>
+
 </html>

@@ -1,8 +1,6 @@
 (function($) {
 
 	"use strict";
-	
-	var loaded = false;
 
 	var options = {
 		events_source: 'DataController.php?function=getEvents',
@@ -15,6 +13,7 @@
 				return;
 			}
 			var list = $('#eventlist');
+			list.html('');
 					
 			function compare(a,b)
 			{
@@ -31,7 +30,7 @@
 
 			
 			$.each(events, function(key, val) {
-				if(currTime < val.start && currEvent < MAX_EVENTS && val.class != 'event-info' && loaded == false) 
+				if(currTime < val.start && currEvent < MAX_EVENTS && val.class != 'event-info') 
 				{
 					var link = document.createElement('a');
 					link.setAttribute("href","javascript:void(0)");
@@ -43,9 +42,6 @@
 
 					list.append(link);
 					currEvent++;
-					
-					if(currEvent == MAX_EVENTS)
-						loaded = true;
 				}
 			});
 			
