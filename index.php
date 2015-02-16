@@ -83,7 +83,8 @@
         <div class="content rounded">
           <img class="img-circle" src="static/imgs/index/circle3.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Next Upcoming Event</h2>
-          <p>Year round we offer a wide ranges of classes and events. Our next upcoming event is</p>
+          <p>Year round we offer a wide ranges of classes and events.</p>
+          <p> Our next upcoming event is</p>
           <p><a class="btn btn-default" href="events.php" role="button">View Events &raquo;</a></p>
         </div>
       </div><!-- /.col-lg-4 -->
