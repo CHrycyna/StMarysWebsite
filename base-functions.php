@@ -43,6 +43,9 @@ function getSubHeader($page, $currPage)
       $links = array(
       array("giftstore.php",         "Gift Store"),
       array("giftstore_fashion.php", "Fashion"),
+      array("giftstore_gourmet.php", "Gourmet"),
+      array("giftstore_homedecor.php", "Home Decor"),
+      array("giftstore_christmas.php", "Christmas"),
       );
       break;
       

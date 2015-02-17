@@ -6,7 +6,7 @@
     <p class="pull-right visible-xs">
       <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
     </p>
-    <div class="jumbotron">
+    <div class="jumbotron landscape">
       <h1>Residential Landscaping</h1>
     </div>
     <div class="row unstyled content rounded featurette">

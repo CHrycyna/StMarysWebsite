@@ -4988,9 +4988,12 @@ a.badge:focus {
   color: inherit;
   background-color: #eee;
 }
+.jumbotron.landscape {
+  background: url(/static/imgs/landscape/grid.png) repeat;
+}
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #00376a;
 }
 .jumbotron p {
   margin-bottom: 15px;

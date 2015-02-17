@@ -6,14 +6,15 @@
     <p class="pull-right visible-xs">
       <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
     </p>
-    <div class="jumbotron">
+    <div class="jumbotron landscape">
       <h1>Landscape Installation</h1>
+      <p>St Mary&#39;s Nursery has the manpower, expertise, and equipment needed to make your dream yard a reality.</p>
     </div>
     <div class="row unstyled content rounded featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Heading 1</h2>
         <p class="lead">
-           Para1
+           A beautiful home combined with beautifully designed and maintained landscaping will increase the enjoyment and value of your living space for years to come.
         </p>  
       </div>
       <div class="col-md-5">
