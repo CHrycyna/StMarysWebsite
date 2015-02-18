@@ -27,3 +27,13 @@
   </div>
 </div>
 <?php endblock('landscaping')?>
+
+<?php startblock('scripts') ?>
+<?php superblock()?>
+<script>
+$(document).ready(function() {
+  $('#nav-landscaping').addClass('active');
+  $('#subnav-gallery').addClass('active');
+});
+</script>
+<?php endblock () ?>

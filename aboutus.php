@@ -1,4 +1,4 @@
-<?php include 'base.php' ?>
+<?php include 'templates/base.php' ?>
 		
 <?php startblock('content') ?>			
 <div class="row contents unstyled">

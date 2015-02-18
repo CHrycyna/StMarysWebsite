@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-<?php require_once 'base-functions.php' ?>
 <?php ini_set('display_errors', 1); ?>
 <?php require_once 'ti.php';?>
 
@@ -58,7 +57,7 @@
             <li id="nav-home"><a href="/">Home</a></li>	
 			<li id="nav-garden"><a href="/garden.php">Garden Center</a></li>
 			<li id="nav-giftstore"><a href="/giftstore.php">Gift Store</a></li>
-			<li id="nav-landscaping"><a href="/landscaping_home.php">Landscaping</a></li>
+			<li id="nav-landscaping"><a href="/landscaping.php">Landscaping</a></li>
 			<li id="nav-events"><a href="/events.php">Events</a></li>
 			<li id="nav-aboutus"><a href="aboutus.php">About Us</a></li>
           </ul>

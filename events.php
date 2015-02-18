@@ -1,4 +1,4 @@
-<?php include 'base.php' ?>
+<?php include 'templates/base.php' ?>
 
 <?php startblock('css')?>
 <?php superblock()?>
@@ -82,4 +82,9 @@
 <script type="text/javascript" src="static/Scripts/jstz.js"></script>
 <script type="text/javascript" src="static/Scripts/calendar.js"></script>
 <script type="text/javascript" src="static/Scripts/calendar-app.js"></script>
+<script>
+$(document).ready(function() {
+  $('#nav-events').addClass('active');
+});
+</script>
 <?php endblock() ?>
