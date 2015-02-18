@@ -16,9 +16,9 @@
 			<div class="row calendar">
 			
 				<div class="col-sm btn-group btn-group-sm">
-					<button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
+					<button class="btn btn-primary" data-calendar-nav="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Prev</button>
 					<button class="btn btn-default" data-calendar-nav="today">Today</button>
-					<button class="btn btn-primary" data-calendar-nav="next">Next >></button>
+					<button class="btn btn-primary" data-calendar-nav="next">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 				</div>
 				<div class="col-sm btn-group btn-group-sm btn-toggle pull-right">
 					<button class="btn btn-primary" data-calendar-view="year">Year</button>

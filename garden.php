@@ -1,7 +1,7 @@
 <?php include 'templates/template_garden.php' ?>
 
 <?php startblock('garden') ?>			
-<div class="jumbotron">
+<div id="garden" class="jumbotron">
   <h1>Garden Center</h1>
 </div>
 <div class="row unstyled content rounded featurette">

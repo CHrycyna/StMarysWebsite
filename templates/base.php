@@ -19,7 +19,6 @@
 	<script src="static/Scripts/jquery.js"></script>
 	<!-- STYLESHEETS -->
 	<?php startblock('css')?>
-	<link rel="stylesheet" href="/static/StyleSheets/bootstrap.css">
 	<link rel="stylesheet" href="/static/StyleSheets/base.css">
 	<link rel="stylesheet" href="/static/StyleSheets/instagram.css">
 	<link rel="stylesheet" href="/static/StyleSheets/Lobster.css">
@@ -69,7 +68,7 @@
 	<div class="footer">
 	  <div class="row col-wrap footer-content">
 	    <div id="footer-col" class="col-md-4">
-		  St.Marys Nursery & Garden Centre Ltd.
+		  St.Marys Nursery &#38; Garden Centre Ltd.
 		  <br>
 		  2901 St.Mary's Road
 		  <br>
