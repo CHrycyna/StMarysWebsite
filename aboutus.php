@@ -15,3 +15,12 @@
 </div><!--/row-->
 
 <?php endblock() ?>
+
+<?php startblock('scripts') ?>
+<?php superblock()?>
+<script>
+$(document).ready(function() {
+  $('#nav-aboutus').addClass('active');
+});
+</script>
+<?php endblock () ?>

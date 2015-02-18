@@ -83,3 +83,12 @@
 </div>
 
 <?php endblock() ?>
+
+<?php startblock('scripts') ?>
+<?php superblock()?>
+<script>
+$(document).ready(function() {
+  $('#nav-home').addClass('active');
+});
+</script>
+<?php endblock () ?>

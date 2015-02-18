@@ -1,11 +1,6 @@
-<?php include 'base.php' ?>
+<?php include 'templates/template_landscaping.php' ?>
 		
-<?php startblock('content') ?>			
-<div class="row contents unstyled row-offcanvas row-offcanvas-right">
-  <div class="col-xs-12 col-sm-9">
-    <p class="pull-right visible-xs">
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-    </p>
+<?php startblock('landscaping')?>
     <div class="jumbotron landscape">
       <h1>Commercial Landscaping</h1>
     </div>
@@ -31,13 +26,4 @@
         </p>  
       </div>
     </div>
-  </div><!--/.col-xs-12.col-sm-9-->
-
-  <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-    <div class="list-group">
-      <?php getSubHeader("landscaping", "landscaping_commercial.php")?>
-    </div>
-  </div><!--/.sidebar-offcanvas-->
-</div><!--/row-->
-
-<?php endblock() ?>
+<?php endblock('landscaping')?>
