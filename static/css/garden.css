@@ -1,0 +1,33 @@
+#annual.jumbotron {
+  background: url("/static/img/annual-banner.png") center;
+}
+#fountainsponds.jumbotron {
+  background: url("/static/img/fountainsponds-banner.jpg") center;
+}
+#fruitsvegetables.jumbotron {
+  background: url("/static/img/fruitsvegetables-banner.jpg") center;
+}
+#garden.jumbotron {
+  background: url("/static/img/garden-banner.png") center;
+}
+#gardenpieces.jumbotron {
+  background: url("/static/img/garden-banner.png") center;
+}
+#largestock.jumbotron {
+  background: url("/static/img/perennial-banner.png") center;
+}
+#nursery.jumbotron {
+  background: url("/static/img/perennial-banner.png") center;
+}
+#perennial.jumbotron {
+  background: url("/static/img/perennial-banner.png") center;
+}
+#plantfinder.jumbotron {
+  background: url("/static/img/plantfinder-banner.png") center;
+}
+#potterycontainers.jumbotron {
+  background: url("/static/img/garden-banner.png") center;
+}
+#tropicals.jumbotron {
+  background: url("/static/img/tropicals-banner.jpg") center;
+}

@@ -17,14 +17,14 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
 	<!-- STYLESHEETS -->
 	<?php startblock('css')?>
-	<link rel="stylesheet" href="/app/static/css/base.css">
-	<link rel="stylesheet" href="/app/static/css/instagram.css">
-	<link rel="stylesheet" href="/app/static/css/Lobster.css">
-	<link rel="stylesheet" href="/app/static/css/Slabo27.css">
+	<link rel="stylesheet" href="/static/css/base.css">
+	<link rel="stylesheet" href="/static/css/instagram.css">
+	<link rel="stylesheet" href="/static/css/Lobster.css">
+	<link rel="stylesheet" href="/static/css/Slabo27.css">
 	<?php endblock()?>
 	
 	<!-- ICON -->
-	<link rel="shortcut icon" href="static/imgs/base/stmarys_logo.gif"/>
+	<link rel="shortcut icon" href="static/img/stmarys_logo.gif"/>
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,8 +38,8 @@
   <div class="container main-content">	
     <header>
 	  <div class="logo-panel">
-		<img class="logo-background" src="/static/imgs/base/StMarys-Logo_Wave-Only.png"/> 
-		<a href="/"><img class="logo-image" src="/static/imgs/base/StMarys-Logo_White-Text.png"/></a>
+		<img class="logo-background" src="/static/img/StMarys-Logo_Wave-Only.png"/> 
+		<a href="/"><img class="logo-image" src="/static/img/StMarys-Logo_White-Text.png"/></a>
 	  </div>
 	  <nav class="navbar">
 	    <div class="container-fluid">
@@ -52,7 +52,7 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav nav-tabs nav-justified">
             <li id="nav-home"><a href="/">Home</a></li>	
-			<li id="nav-garden"><a href="/garden.php">Garden Centre</a></li>
+			<li id="nav-garden"><a href="/gardencentre">Garden Centre</a></li>
 			<li id="nav-giftstore"><a href="/giftstore.php">Gift Store</a></li>
 			<li id="nav-landscaping"><a href="/landscaping.php">Landscaping</a></li>
 			<li id="nav-events"><a href="/events.php">Events</a></li>
@@ -79,7 +79,7 @@
 		  </div>
 		</div>
 	    <div id="footer-col" class="col-md-4">
-		  <img id="footer-logo" src="/static/imgs/base/StMarysGardenCenter_Icon.png"/>
+		  <img id="footer-logo" src="/static/img/StMarysGardenCenter_Icon.png"/>
 		</div>
 		<div id="footer-col" class="col-md-4">
 		  <div class="social-col">
@@ -100,11 +100,11 @@
 </body>
   
 <?php startblock('scripts') ?>
-<script src="static/js/bootstrap.js" ></script>
-<script src="static/js/twitter.js"> </script>
-<script src="static/js/facebook.js"> </script>
-<script src="static/js/underscore-min.js"></script>
-<script src="static/js/offcanvas.js"></script>
+<script src="/static/js/bootstrap.js" ></script>
+<script src="/static/js/twitter.js"> </script>
+<script src="/static/js/facebook.js"> </script>
+<script src="/static/js/underscore-min.js"></script>
+<script src="/static/js/offcanvas.js"></script>
 <?php endblock () ?>
 
 </html>

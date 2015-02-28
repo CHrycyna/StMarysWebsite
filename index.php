@@ -9,8 +9,9 @@ foreach(glob('app/controllers/*.php') as $filename)
 $router = new AltoRouter();
 $router->setBasePath('');
 
-$router->map('GET','/','FrontController#getHome');
-$router->map('GET','/static/[:parent]/?[:child]?', 'StaticController#getSource', 'static');
+$router->map('GET','/','FrontController#getHome', "home");
+$router->map('GET','/[a:page]/[a:subpage]?','FrontController#getPage');
+$router->map('GET','/api/[a:controller]/[a:action]/[*:param1]?/[*:param2]?/[*:param3]?/[*:param4]?/[*:param5]?','APIController#getRequest' ,'api');
 
 // match current request
 $match = $router->match();
@@ -23,10 +24,9 @@ if( $match ) {
   }
   else
   {
-    echo "Not Callable";
+    FrontController::get404();
   }
 } else {
-  // no route was matched
-  echo "404 - Not Found";
+  FrontController::get404();
 }
 ?>

@@ -1,8 +1,8 @@
-<?php include 'base.php' ?>
+<?php include 'app/views/templates/base.php' ?>
 
 <?php startblock('css')?>
 <?php superblock()?>
-<link rel="stylesheet" href="/static/StyleSheets/garden.css">
+<link rel="stylesheet" href="/static/css/garden.css">
 <?php endblock()?>
 
 <?php startblock('content') ?>			
@@ -17,21 +17,21 @@
 
   <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
     <div class="list-group">
-      <a id="subnav-garden"      href="garden.php" class="list-group-item">Garden Center</a>
-      <a id="subnav-perennials"  href="garden_perennials.php" class="list-group-item">Perennials</a>
-      <a id="subnav-annuals"     href="garden_annuals.php" class="list-group-item">Annuals</a>
-      <a id="subnav-fruitveg"    href="garden_fruitveg.php" class="list-group-item">Fruits and Vegetables</a>
-      <a id="subnav-plantfinder" href="garden_plantfinder.php" class="list-group-item">Plant Finder</a>  
-      <a id="subnav-tropicals"   href="garden_tropicals.php" class="list-group-item">Tropicals</a>
+      <a id="subnav-garden"      href="/gardencentre" class="list-group-item">Garden Center</a>
+      <a id="subnav-perennials"  href="/gardencentre/perennials" class="list-group-item">Perennials</a>
+      <a id="subnav-annuals"     href="/gardencentre/annuals" class="list-group-item">Annuals</a>
+      <a id="subnav-fruitveg"    href="/gardencentre/fruitveg" class="list-group-item">Fruits and Vegetables</a>
+      <a id="subnav-plantfinder" href="/gardencentre/plantfinder" class="list-group-item">Plant Finder</a>  
+      <a id="subnav-tropicals"   href="/gardencentre/tropicals" class="list-group-item">Tropicals</a>
     </div>
     <div class="list-group">
-      <a id="subnav-nursery"    href="garden_nursery.php" class="list-group-item">Nursery</a>
-      <a id="subnav-largestock" href="garden_largestock.php" class="list-group-item">Large Stock</a>
+      <a id="subnav-nursery"    href="/gardencentre/nursery" class="list-group-item">Nursery</a>
+      <a id="subnav-largestock" href="/gardencentre/largestock" class="list-group-item">Large Stock</a>
     </div>
     <div class="list-group">
-      <a id="subnav-potscontainers" href="garden_potscontainers.php" class="list-group-item">Pottery &amp; Containers</a>
-      <a id="subnav-gardenpieces"   href="garden_gardenpieces.php" class="list-group-item">Garden Pieces</a>
-      <a id="subnav-fountainsponds" href="garden_fountainsponds.php" class="list-group-item">Fountains &amp; Miniature Ponds</a>
+      <a id="subnav-potscontainers" href="/gardencentre/potscontainers" class="list-group-item">Pottery &amp; Containers</a>
+      <a id="subnav-gardenpieces"   href="/gardencentre/gardenpieces" class="list-group-item">Garden Pieces</a>
+      <a id="subnav-fountainsponds" href="/gardencentre/fountainsponds" class="list-group-item">Fountains &amp; Miniature Ponds</a>
     </div>
   </div><!--/.sidebar-offcanvas-->
 </div><!--/row-->
