@@ -1,4 +1,4 @@
-<?php include 'base.php' ?>
+<?php include 'app/views/templates/base.php' ?>
 		
 <?php startblock('content') ?>			
 <div class="row contents unstyled row-offcanvas row-offcanvas-right">
@@ -13,13 +13,12 @@
 
   <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
     <div class="list-group">
-      <a id="subnav-landscaping" href="landscaping.php" class="list-group-item">Landscaping</a>
-      <a id="subnav-design" href="landscaping_design.php" class="list-group-item">Landscape Design</a>
-      <a id="subnav-installation" href="landscaping_installation.php" class="list-group-item">Landscape Installation</a>
-      <a id="subnav-residential" href="landscaping_residential.php" class="list-group-item">Residential</a>
-      <a id="subnav-commercial" href="landscaping_commercial.php" class="list-group-item">Commercial</a>
-      <a id="subnav-affiliates" href="landscaping_affiliates.php" class="list-group-item">Affiliates</a>
-      <a id="subnav-gallery" href="landscaping_gallery.php" class="list-group-item">Gallery</a>  
+      <a id="subnav-landscaping" href="/landscaping" class="list-group-item">Landscaping</a>
+      <a id="subnav-design" href="/landscaping/design" class="list-group-item">Landscape Design</a>
+      <a id="subnav-installation" href="/landscaping/installation" class="list-group-item">Landscape Installation</a>
+      <a id="subnav-commercial" href="/landscaping/commercial" class="list-group-item">Commercial</a>
+      <a id="subnav-affiliates" href="/landscaping/affiliates" class="list-group-item">Affiliates</a>
+      <a id="subnav-gallery" href="/landscaping/gallery" class="list-group-item">Gallery</a>  
     </div>
   </div><!--/.sidebar-offcanvas-->
 </div><!--/row-->

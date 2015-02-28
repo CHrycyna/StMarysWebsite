@@ -1,4 +1,4 @@
-<?php include 'templates/template_giftstore.php' ?>
+<?php include 'app/views/templates/template_giftstore.php' ?>
 		
 <?php startblock('giftstore') ?>			
 

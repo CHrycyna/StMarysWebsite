@@ -1,4 +1,4 @@
-<?php include 'templates/template_landscaping.php' ?>
+<?php include 'app/views/templates/template_landscaping.php' ?>
 		
 <?php startblock('landscaping')?>
 <div class="jumbotron landscape">

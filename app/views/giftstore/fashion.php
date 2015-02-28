@@ -1,8 +1,8 @@
-<?php include 'templates/template_landscaping.php' ?>
+<?php include 'app/views/templates/template_giftstore.php' ?>
 		
-<?php startblock('landscaping')?>
-<div class="jumbotron landscape">
-  <h1>Landscape Gallery</h1>
+<?php startblock('giftstore') ?>			
+<div class="jumbotron">
+  <h1>Fashion</h1>
 </div>
 <div class="row unstyled content rounded featurette">
   <div class="col-md-7">
@@ -26,14 +26,14 @@
     </p>  
   </div>
 </div>
-<?php endblock('landscaping')?>
+<?php endblock() ?>
 
 <?php startblock('scripts') ?>
 <?php superblock()?>
 <script>
 $(document).ready(function() {
-  $('#nav-landscaping').addClass('active');
-  $('#subnav-gallery').addClass('active');
+  $('#nav-giftstore').addClass('active');
+  $('#subnav-fashion').addClass('active');
 });
 </script>
 <?php endblock () ?>

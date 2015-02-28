@@ -1,8 +1,8 @@
-<?php include 'templates/template_landscaping.php' ?>
+<?php include 'app/views/templates/template_landscaping.php' ?>
 		
 <?php startblock('landscaping')?>
 <div class="jumbotron landscape">
-  <h1>Residential Landscaping</h1>
+  <h1>Landscape Gallery</h1>
 </div>
 <div class="row unstyled content rounded featurette">
   <div class="col-md-7">
@@ -33,7 +33,7 @@
 <script>
 $(document).ready(function() {
   $('#nav-landscaping').addClass('active');
-  $('#subnav-residential').addClass('active');
+  $('#subnav-gallery').addClass('active');
 });
 </script>
 <?php endblock () ?>

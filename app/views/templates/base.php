@@ -53,10 +53,10 @@
           <ul class="nav nav-tabs nav-justified">
             <li id="nav-home"><a href="/">Home</a></li>	
 			<li id="nav-garden"><a href="/gardencentre">Garden Centre</a></li>
-			<li id="nav-giftstore"><a href="/giftstore.php">Gift Store</a></li>
-			<li id="nav-landscaping"><a href="/landscaping.php">Landscaping</a></li>
-			<li id="nav-events"><a href="/events.php">Events</a></li>
-			<li id="nav-aboutus"><a href="aboutus.php">About Us</a></li>
+			<li id="nav-giftstore"><a href="/giftstore">Gift Store</a></li>
+			<li id="nav-landscaping"><a href="/landscaping">Landscaping</a></li>
+			<li id="nav-events"><a href="/events">Events</a></li>
+			<li id="nav-aboutus"><a href="/aboutus">About Us</a></li>
           </ul>
         </div>
 	  </nav>

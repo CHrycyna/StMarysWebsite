@@ -12,11 +12,11 @@
 
   <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
     <div class="list-group">
-      <a id="subnav-giftstore" href="giftstore.php" class="list-group-item">Giftstore</a>
-      <a id="subnav-fashion" href="giftstore_fashion.php" class="list-group-item">Fashion</a>
-      <a id="subnav-gourmet" href="giftstore_gourmet.php" class="list-group-item">Gourmet</a>
-      <a id="subnav-homedecor" href="giftstore_homedecor.php" class="list-group-item">Home Decor</a>
-      <a id="subnav-christmas" href="giftstore_christmas.php" class="list-group-item">Christmas</a>
+      <a id="subnav-giftstore" href="/giftstore" class="list-group-item">Giftstore</a>
+      <a id="subnav-fashion" href="/giftstore/fashion" class="list-group-item">Fashion</a>
+      <a id="subnav-gourmet" href="/giftstore/gourmet" class="list-group-item">Gourmet</a>
+      <a id="subnav-homedecor" href="/giftstore/homedecor" class="list-group-item">Home Decor</a>
+      <a id="subnav-christmas" href="/giftstore/christmas" class="list-group-item">Christmas</a>
     </div>
   </div><!--/.sidebar-offcanvas-->
 </div><!--/row-->
