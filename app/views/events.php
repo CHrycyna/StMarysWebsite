@@ -2,7 +2,7 @@
 
 <?php startblock('css')?>
 <?php superblock()?>
-<link rel="stylesheet" href="/static/StyleSheets/calender.css">
+<link rel="stylesheet" href="/static/css/calender.css">
 <?php endblock()?>
 		
 <?php startblock('content') ?>
@@ -79,9 +79,9 @@
 
 <?php startblock('scripts') ?>
 <?php superblock() ?>
-<script type="text/javascript" src="static/Scripts/jstz.js"></script>
-<script type="text/javascript" src="static/Scripts/calendar.js"></script>
-<script type="text/javascript" src="static/Scripts/calendar-app.js"></script>
+<script type="text/javascript" src="static/js/jstz.js"></script>
+<script type="text/javascript" src="static/js/calendar.js"></script>
+<script type="text/javascript" src="static/js/calendar-app.js"></script>
 <script>
 $(document).ready(function() {
   $('#nav-events').addClass('active');

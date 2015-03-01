@@ -3,9 +3,9 @@
 	"use strict";
 
 	var options = {
-		events_source: 'DataController.php?function=getEvents',
+		events_source: '/api/EventController/getEvents',
 		view: 'month',
-		tmpl_path: 'templates/calendar/',
+		tmpl_path: '/templates/calendar/',
 		tmpl_cache: false,
 		day: 'now',
 		onAfterEventsLoad: function(events) {

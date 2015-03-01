@@ -24,6 +24,7 @@ class FrontController
     }
     else
     {
+      echo"doesnt exist";
       self::get404();
     }
   }

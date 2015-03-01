@@ -10,8 +10,8 @@ $router = new AltoRouter();
 $router->setBasePath('');
 
 $router->map('GET','/','FrontController#getHome', "home");
-$router->map('GET','/[a:page]/[a:subpage]?','FrontController#getPage');
 $router->map('GET','/api/[a:controller]/[a:action]/[*:param1]?/[*:param2]?/[*:param3]?/[*:param4]?/[*:param5]?','APIController#getRequest' ,'api');
+$router->map('GET','/[a:page]/[a:subpage]?','FrontController#getPage');
 
 // match current request
 $match = $router->match();
