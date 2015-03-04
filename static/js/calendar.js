@@ -78,7 +78,7 @@ if(!String.prototype.formatNum) {
 		// or absolute
 		// http://localhost/component/bootstrap-calendar/tmpls/
 		tmpl_path:          '/api/templates/calendar/',
-		tmpl_cache:         false,
+		tmpl_cache:         true,
 		classes:            {
 			months: {
 				inmonth:  'cal-day-inmonth',
@@ -497,13 +497,11 @@ if(!String.prototype.formatNum) {
 				data.all_day.push(e);
 				return;
 			}
-
-			if(e.end < start.getTime()) {
+			else if(e.end < start.getTime()) {
 				data.before_time.push(e);
 				return;
-			}
-
-			if(e.start > end.getTime()) {
+			} 
+			else if(e.start > end.getTime()) {
 				data.after_time.push(e);
 				return;
 			}
@@ -929,7 +927,6 @@ if(!String.prototype.formatNum) {
 			return this.options.tmpl_path(name)
 		}
 		else {
-			console.log(this.options.tmpl_path + name + '.html');
 			return this.options.tmpl_path + name + '.html';
 		}
 	};
@@ -1019,7 +1016,6 @@ if(!String.prototype.formatNum) {
 						var modal_body = $(this).find('.modal-body');
 						switch(self.options.modal_type) {
 							case "javascript" :
-								console.log("javascript");
 								if(event.allday == true)
 								{
 									var date = new Date ( event.start );
@@ -1051,7 +1047,6 @@ if(!String.prototype.formatNum) {
 								break;
 
 							case "template":
-								console.log("Template");
 								self._loadTemplate("modal");
 								//	also serve calendar instance to underscore template to be able to access current language strings
 								modal_body.html(self.options.templates["modal"]({"event": event, "calendar": self}))

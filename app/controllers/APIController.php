@@ -1,5 +1,6 @@
 <?php
 require_once 'app/controllers/sub_controllers/EventController.php';
+require_once 'app/controllers/sub_controllers/TwitterController.php';
 
 class APIController
 {

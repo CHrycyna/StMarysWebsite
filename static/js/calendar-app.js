@@ -46,7 +46,6 @@
 			});
 			
 			
-			
 		},
 		onAfterViewLoad: function(view) {
 			$('.page-header h1').text(this.getTitle());

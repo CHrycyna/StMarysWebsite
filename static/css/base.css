@@ -11,7 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  background: url("/static/img/background.png") repeat;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -1601,6 +1601,9 @@ pre code {
 .row.unstyled {
   margin-left: 0px;
   margin-right: 0px;
+}
+.col-sm-3.unstyled {
+  padding: 0 0 0 0;
 }
 
 .row.calendar {
@@ -6208,7 +6211,6 @@ button.close {
 }
 .carousel {
   position: relative;
-  margin-bottom: 10px;
 }
 .carousel-inner {
   position: relative;
@@ -6304,8 +6306,6 @@ button.close {
   opacity: .5;
 }
 .carousel-control.left {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
@@ -6316,8 +6316,6 @@ button.close {
 .carousel-control.right {
   right: 0;
   left: auto;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
@@ -6376,6 +6374,7 @@ button.close {
   margin-left: -30%;
   text-align: center;
   list-style: none;
+  opacity: 0.75;
 }
 .carousel-indicators li {
   display: inline-block;
@@ -7099,14 +7098,68 @@ header
   display: none;
 }
 .twitter-content {
+  margin-bottom: 0px;
   text-align: left;
   padding: 10px 10px 10px 10px;
   overflow-y: scroll;
-  height: 350px;
+  height: 424px;
+  font: normal 14px Georgia, "Times New Roman", Palatino, serif;
 }
 .twitter-text {
   text-align: left !important;
 }
 .tweet-img {
   width: 100%;
+}
+.animNav {
+  position: relative;
+  height: 424px;
+  padding: 0 0 0 0;
+  background-color: #000;
+  overflow: hidden;
+  text-decoration: none;
+}
+.animNav > a:hover{
+  text-decoration: none;
+}
+.gardencentre,
+.giftstore,
+.landscaping {
+  height: 424px
+}
+.gardencentre {
+  background: url(/static/img/marketing-gardencentre.jpg);
+}
+.giftstore {
+  background: url(/static/img/marketing-giftstore.jpg);
+}
+.landscaping {
+  background-image: url(/static/img/marketing-landscaping.jpg);
+}
+.background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  height: 424px;
+  transition: all .2s linear;
+  opacity: 1;
+}
+.grow:hover .background {
+  -webkit-transform: scale(1.1, 1.1);
+   -moz-transform: scale(1.1, 1.1);
+   -ms-transform: scale(1.1, 1.1);
+   -o-transform: scale(1.1, 1.1);
+   transform: scale(1.1, 1.1);
+   opacity: 0.8;
+}
+.inner {
+  top: 100px;
+  color: #124b90;
+  position: relative;
+  background: transparent;
 }

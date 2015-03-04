@@ -11,17 +11,45 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
     </ol>
     
-    <div class="carousel-inner rounded" role="listbox">
+    <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img class="rounded" src="static/img/carousel1.jpg" alt="First slide">
+        <img src="static/img/carousel1.jpg" alt="First slide">
       </div>
       <div class="item">
-        <img class="rounded" src="static/img/carousel2.jpg" alt="Second slide">
+        <img src="static/img/carousel2.jpg" alt="Second slide">
       </div>
       <div class="item">
-        <img class="rounded" src="static/img/carousel3.jpg" alt="Third slide">
+        <img src="static/img/carousel3.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel4.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel5.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel6.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel7.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel8.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel9.jpg" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="static/img/carousel10.jpg" alt="Third slide">
       </div>
     </div>
     
@@ -43,34 +71,42 @@
   <div class="marketing">
     <!-- Three columns of text below the carousel -->
     <div class="row unstyled">
-      <div class="left col-sm-4">
-        <div class="content rounded">
-          <img class="img-circle" src="static/img/circle1.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Landscape Design</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-sm-4 animNav">
+            <a class="grow" href="/gardencentre">
+              <div class="background gardencentre"></div>
+              <div class="inner">
+                <h1 class="outlined">Garden Centre</h1>
+                <h3 class="outline"></h3>
+              </div>             
+            </a>
+          </div>
+          <div class="col-sm-4 animNav">
+            <a class="grow" href="/giftstore">
+              <div class="background giftstore"></div>
+              <div class="inner">
+                <h1 class="outlined">Gift Store</h1>
+                <h3 class="outlined">St. Mary&#39;s Nursery radiates displays of unique home d&eacute;cor and gift items for your selection.</h3>
+              </div> 
+            </a>
+          </div>
+          <div class="col-sm-4 animNav">
+            <a class="grow" href="/landscaping">
+              <div class="background landscaping"></div>
+               <div class="inner">
+                 <h1 class="outlined" >Landscaping</h1>
+                 <h3 class="outlined" >Something 3</h3>
+              </div> 
+            </a>
+          </div>
         </div>
-      </div><!-- /.col-lg-4 -->
-      
-      <div class="middle col-sm-4">
-        <div class="content rounded">
-          <img class="img-circle" src="static/img/circle2.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Something Else</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-sm-3 unstyled">
+        <div class="content twitter-content">
         </div>
-      </div><!-- /.col-lg-4 -->
-       
-      <div class="right col-sm-4">
-        <div class="content rounded">
-          <img class="img-circle" src="static/img/circle3.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Next Upcoming Event</h2>
-          <p>Year round we offer a wide ranges of classes and events.</p>
-          <p> Our next upcoming event is</p>
-          <p><a class="btn btn-default" href="events.php" role="button">View Events &raquo;</a></p>
-        </div>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+      </div>
+    </div>
   </div>
 </div>
 
@@ -78,6 +114,7 @@
 
 <?php startblock('scripts') ?>
 <?php superblock()?>
+<script src="/static/js/mytweets.js" ></script>
 <script>
 $(document).ready(function() {
   $('#nav-home').addClass('active');
