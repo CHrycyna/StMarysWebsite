@@ -11,7 +11,7 @@ class EventController {
   const CLIENT_ID = "805723456387-vo08h7st3c35perc07q24nsbf84hkcoc.apps.googleusercontent.com";
   const SERVICE_ACCOUNT_NAME = "805723456387-vo08h7st3c35perc07q24nsbf84hkcoc@developer.gserviceaccount.com";
   const KEY_FILE   = "includes/StMarysWebsite-8a773e3b1a94.p12";
-  const CACHE_TIME = 1;
+  const CACHE_TIME = 600;
   
   private static $calendars = array();
   
@@ -67,7 +67,7 @@ class EventController {
       for($i=0; $i<count(self::$calendars); $i++)
       {
         $events = $cache->get(self::$calendars[$i][1]);
-        $cal_id = self::$calendars[$i][0];
+        $cal_id = self::$calendars[$i][1];
         $event_lists[$cal_id] = $events;
       }
     }
