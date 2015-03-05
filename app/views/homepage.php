@@ -77,8 +77,8 @@
             <a class="grow" href="/gardencentre">
               <div class="background gardencentre"></div>
               <div class="inner">
-                <h1 class="outlined">Garden Centre</h1>
-                <h3 class="outline"></h3>
+                <h1>Garden Centre</h1>
+                <h3>Through our doors, the garden centre welcomes you.</h3>
               </div>             
             </a>
           </div>
@@ -96,7 +96,7 @@
               <div class="background landscaping"></div>
                <div class="inner">
                  <h1 class="outlined" >Landscaping</h1>
-                 <h3 class="outlined" >Something 3</h3>
+                 <h3 class="outlined" >Proudly beautifying Winnipeg for 30 Years!</h3>
               </div> 
             </a>
           </div>

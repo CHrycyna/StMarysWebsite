@@ -7147,7 +7147,7 @@ header
   top: 0;
   height: 424px;
   transition: all .2s linear;
-  opacity: 1;
+  opacity: 0.85;
 }
 .grow:hover .background {
   -webkit-transform: scale(1.1, 1.1);
@@ -7155,11 +7155,22 @@ header
    -ms-transform: scale(1.1, 1.1);
    -o-transform: scale(1.1, 1.1);
    transform: scale(1.1, 1.1);
-   opacity: 0.8;
+   opacity: 0.5;
 }
 .inner {
+  margin: 10px 10px 10px 10px;
   top: 100px;
   color: #124b90;
   position: relative;
   background: transparent;
+}
+
+.inner > h1,
+.inner > h3 {
+  color: #124b90;
+  text-shadow:
+  -1px -1px 0 #fff,
+  1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  1px 1px 0 #fff;
 }
