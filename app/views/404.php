@@ -2,7 +2,14 @@
 				
 <?php startblock('content') ?>
 <div class="contents page-not-found">
-	<img id="not-found-image" src="/static/img/StMarysGardenCenter_404_Icon.jpg"/>
+  <div class="content rounded">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Oooops!</h1>
+        <p>We're sorry but we could not find the page you were looking for.</p>
+      </div>
+    </div>
+  </div>
 </div>
 <?php endblock() ?>
 

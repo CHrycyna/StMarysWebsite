@@ -4,53 +4,8 @@
 
 <div class="contents">
   <!-- Carousel ================================================== -->
-  <div id="myCarousel" class="carousel slide rounded" data-ride="carousel">
-  
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
-      <li data-target="#myCarousel" data-slide-to="6"></li>
-      <li data-target="#myCarousel" data-slide-to="7"></li>
-      <li data-target="#myCarousel" data-slide-to="8"></li>
-      <li data-target="#myCarousel" data-slide-to="9"></li>
-    </ol>
-    
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">    
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="static/img/carousel1.jpg" alt="First slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel2.jpg" alt="Second slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel3.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel4.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel5.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel6.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel7.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel8.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel9.jpg" alt="Third slide">
-      </div>
-      <div class="item">
-        <img src="static/img/carousel10.jpg" alt="Third slide">
-      </div>
     </div>
     
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -73,7 +28,7 @@
     <div class="row unstyled">
       <div class="col-sm-9">
         <div class="row">
-          <div class="col-sm-4 animNav">
+          <div class="col-sm-4 animNav animNav-left">
             <a class="grow" href="/gardencentre">
               <div class="background gardencentre"></div>
               <div class="inner">
@@ -114,7 +69,7 @@
 
 <?php startblock('scripts') ?>
 <?php superblock()?>
-<script src="/static/js/mytweets.js" ></script>
+<script src="/static/js/homepage.js" ></script>
 <script>
 $(document).ready(function() {
   $('#nav-home').addClass('active');

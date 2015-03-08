@@ -1,4 +1,5 @@
 <?php
+
 class FrontController
 {
   public static function getHome() {
@@ -24,7 +25,6 @@ class FrontController
     }
     else
     {
-      echo"doesnt exist";
       self::get404();
     }
   }

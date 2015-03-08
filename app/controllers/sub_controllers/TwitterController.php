@@ -1,5 +1,5 @@
 <?php
-require 'includes/codebird.php';
+include_once 'includes/codebird.php';
 
 class TwitterController {
   const CONSUMER_KEY = 'GCALojl85E7rai5LmypsMEvfq';

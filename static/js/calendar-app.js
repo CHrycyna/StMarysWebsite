@@ -3,7 +3,7 @@
 	"use strict";
 
 	var options = {
-		events_source: '/api/EventController/getEvents',
+		events_source: '/api/Event/getEvents',
 		view: 'month',
 		tmpl_path: '/templates/calendar/',
 		tmpl_cache: false,

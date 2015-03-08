@@ -18,7 +18,6 @@
       <a id="subnav-installation" href="/landscaping/installation" class="list-group-item">Landscape Installation</a>
       <a id="subnav-commercial" href="/landscaping/commercial" class="list-group-item">Commercial</a>
       <a id="subnav-affiliates" href="/landscaping/affiliates" class="list-group-item">Affiliates</a>
-      <a id="subnav-gallery" href="/landscaping/gallery" class="list-group-item">Gallery</a>  
     </div>
   </div><!--/.sidebar-offcanvas-->
 </div><!--/row-->

@@ -6211,6 +6211,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  margin-bottom: 15px;
 }
 .carousel-inner {
   position: relative;
@@ -6225,6 +6226,7 @@ button.close {
           transition: .6s ease-in-out left;
 }
 .carousel-inner > .item > img {
+  border-radius: 6px;
   overflow: hidden;
 }
 .carousel-inner > .item > img,
@@ -6306,6 +6308,8 @@ button.close {
   opacity: .5;
 }
 .carousel-control.left {
+  border-top-left-radius: 6px; 
+  border-bottom-left-radius: 6px; 
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
@@ -6314,6 +6318,8 @@ button.close {
   background-repeat: repeat-x;
 }
 .carousel-control.right {
+  border-top-right-radius: 6px; 
+  border-bottom-right-radius: 6px; 
   right: 0;
   left: auto;
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
@@ -6736,11 +6742,10 @@ button.close {
  * --------------------------------------------------
  */
  
-.sidebar-offcanvas > .list-group {
-  margin-top: 15px;
-}
-  
 @media screen and (max-width: 767px) {
+  .sidebar-offcanvas > .list-group {
+    margin-top: 15px;
+  }
   .row-offcanvas {
     position: relative;
     -webkit-transition: all .25s ease-out;
@@ -7098,12 +7103,21 @@ header
   display: none;
 }
 .twitter-content {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
   margin-bottom: 0px;
   text-align: left;
   padding: 10px 10px 10px 10px;
   overflow-y: scroll;
   height: 424px;
   font: normal 14px Georgia, "Times New Roman", Palatino, serif;
+}
+@media (max-width: 767px) {
+  .twitter-content {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
 }
 .twitter-text {
   text-align: left !important;
@@ -7121,6 +7135,17 @@ header
 }
 .animNav > a:hover{
   text-decoration: none;
+}
+.animNav-left {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+@media (max-width: 767px) {
+  .animNav-left {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+  }
 }
 .gardencentre,
 .giftstore,
@@ -7173,4 +7198,38 @@ header
   1px -1px 0 #fff,
   -1px 1px 0 #fff,
   1px 1px 0 #fff;
+}
+
+.media-object.landscape-affiliate {
+  width: 300px;
+}
+@media (max-width: 991px) {
+  .media-object.aboutus {
+    width:200px;
+  }
+  .media-object.landscape-affiliate {
+    width: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .media-left.aboutus,
+  .media-right.aboutus {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .media-object.aboutus {
+    width: 0px;
+    visibility: hidden;
+  }
+  .media-object.landscape-affiliate {
+    width: 0px;
+    visibility: hidden;
+  }
+}
+#barkman-logo {
+  background-color: #2f404e;
+}
+.content.affiliates > .media {
+  margin-left: 15px;
+  margin-right: 15px;
 }

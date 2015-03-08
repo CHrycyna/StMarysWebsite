@@ -1,4 +1,4 @@
-<? require_once ('includes/codebird.php'); 
+<? include_once ('includes/codebird.php'); 
 $CONSUMER_KEY = 'GCALojl85E7rai5LmypsMEvfq';     
 $CONSUMER_SECRET = 'HKtUNoWD7d1dAq3G0qG0bHpoJLXT9mQV04dcaElLZslMUzjuoE';     
 $ACCESS_TOKEN = '109068887-SBI7oWJteUbQPo3jvbwQ44qxKXSXQf8OGP0aufGF';     

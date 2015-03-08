@@ -1,10 +1,10 @@
 <?php
 ini_set('display_errors', 1);
 
-require 'includes/AltoRouter.php';
+include_once 'includes/AltoRouter.php';
 
 foreach(glob('app/controllers/*.php') as $filename)
-  require $filename;
+  include_once $filename;
 
 $router = new AltoRouter();
 $router->setBasePath('');

@@ -1,8 +1,8 @@
 <?php
-require_once 'includes/google/Google_Client.php';
-require_once 'includes/google/Google_CalendarService.php';
-require_once 'includes/google/cache/Google_Cache.php';
-require_once 'includes/google/cache/Google_FileCache.php';
+include_once 'includes/google/Google_Client.php';
+include_once 'includes/google/Google_CalendarService.php';
+include_once 'includes/google/cache/Google_Cache.php';
+include_once 'includes/google/cache/Google_FileCache.php';
 
 date_default_timezone_set('America/Chicago');
 
