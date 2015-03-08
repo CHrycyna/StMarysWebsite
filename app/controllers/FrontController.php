@@ -19,9 +19,8 @@ class FrontController
     {
       if(array_key_exists('subpage', $params))
           require 'app/views/'.$params['page'].'/'.$params['subpage'].'.php';
-        else
+      else
           require 'app/views/'.$params['page'].'/'.$params['page'].'.php';
-        break;
     }
     else
     {

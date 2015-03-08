@@ -6,16 +6,27 @@ class DatabaseController {
   const PASSWORD    = "2901Stm4rys";
   const DATABASE    = "phpmy1_stmarysnurseryandgardencentre_ca";
   
-  private static function getConnection() {  
-    return new mysqli(self::SERVER_NAME, self::USERNAME, self::PASSWORD, self::DATABASE);
+  protected static function getConnection() { 
+    $connection = mysqli_connect(self::SERVER_NAME, self::USERNAME, self::PASSWORD, self::DATABASE);
+    
+    if (mysqli_connect_errno()) {
+      printf("Connect failed: %s\n", mysqli_connect_error());
+      exit();
+    }
+    
+    return $connection;
   }
   
   public static function testConnection() {
     self::getUser("cameron.hrycyna@gmail.com");
   }
   
-  protected static function INSERT() {
+  protected static function INSERT($table_name, $values) {
+    $sql = 'INSERT INTO '.$table_name;
     
+    $sql .= ' VALUES ';
+
+    echo $sql;
   }
   
   protected static function SELECT() {
