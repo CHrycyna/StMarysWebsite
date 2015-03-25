@@ -13,8 +13,8 @@
 
   <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
     <div class="list-group">
-      <a id="subnav-aboutus" href="/aboutus" class="list-group-item">Aboust Us</a>
-      <a id="subnav-aboutus" href="/employment" class="list-group-item">Employment Opportunities</a>
+      <a id="subnav-aboutus" href="/aboutus" class="list-group-item">About Us</a>
+      <!-- <a id="subnav-aboutus" href="/employment" class="list-group-item">Employment Opportunities</a> -->
     </div>
   </div><!--/.sidebar-offcanvas-->
 </div><!--/row-->

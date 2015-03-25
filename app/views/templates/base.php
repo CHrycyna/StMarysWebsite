@@ -92,11 +92,14 @@
 			<div class="row ">
 			  <a id="twitter-badge" class="social-badge" href="https://twitter.com/StMarysNursery">Twitter</a>
 			</div>
+			<div class="row">
+			  <a id="newsletter-badge" class="social-badge" href="/newsletter">Newsletters</a>
+			</div>
 		  </div>
 		</div>
 	  </div>
 	</div> <!-- END: footer  -->
-  </div> <!-- END: container main-content -->	
+  </div> <!-- END: container main-content -->
 </body>
   
 <?php startblock('scripts') ?>

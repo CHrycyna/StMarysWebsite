@@ -7,13 +7,13 @@
 <div class="content rounded">
   <div class="row unstyled featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Fountain &amp; Miniature Ponds 1</h2>
+      <h2 class="featurette-heading">Visit our water gallery for all your water gardening needs</h2>
       <p class="lead">
-        Fountain &amp; Miniature Ponds paragraph 1
+        Our supply of pond equipment includes pond liners in multiple widths, pumps and fittings required for creating a water feature for your yard.   Fountains and birdbaths may be the water feature choice that you may find amongst our selections.   Pond plants are available from late April to September.  
       </p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+      <img class="featurette-image img-responsive rounded" data-src="holder.js/500x500/auto" alt="500x500" src="/static/img/gardencentre/500x500-pondsfountains.jpg" data-holder-rendered="true">
     </div>
   </div>
 </div>

@@ -7,13 +7,16 @@
 <div class="content rounded">
   <div class="row unstyled featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Annuals Heading 1</h2>
+      <h2 class="featurette-heading">A Spark of Color</h2>
       <p class="lead">
-        Annuals paragraph 1
+        Annuals have a tenacious strength in producing blooms after bloom resulting in high impact color in the garden, as well for container gardening.
+      </p>
+      <p class="lead">
+        A full array of plants from the traditional geraniums to the latest introductions in the greenhouse industry; our greenhouses radiate a broad spectrum color.   Choices are endless when looking for individual sized varieties or if you seek a readymade designed hanging basket or floor container.
       </p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+      <img class="featurette-image img-responsive rounded" alt="500x500" src="/static/img/gardencentre/500x500-annuals.jpg" data-holder-rendered="true">
     </div>
   </div>
 </div>

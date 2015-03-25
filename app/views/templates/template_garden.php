@@ -21,7 +21,7 @@
       <a id="subnav-perennials"  href="/gardencentre/perennials" class="list-group-item">Perennials</a>
       <a id="subnav-annuals"     href="/gardencentre/annuals" class="list-group-item">Annuals</a>
       <a id="subnav-fruitveg"    href="/gardencentre/fruitveg" class="list-group-item">Fruits and Vegetables</a>
-      <a id="subnav-plantfinder" href="/gardencentre/plantfinder" class="list-group-item">Plant Finder</a>  
+      <a id="subnav-plantfinder" href="http://plants.stmarysnurseryandgardencentre.ca/11050007" class="list-group-item">Plant Finder</a>  
       <a id="subnav-tropicals"   href="/gardencentre/tropicals" class="list-group-item">Tropicals</a>
     </div>
     <div class="list-group">

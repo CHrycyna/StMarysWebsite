@@ -7,13 +7,47 @@
 <div class="content rounded">
   <div class="row unstyled featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Pottery &amp; Containers Heading 1</h2>
+      <h2 class="featurette-heading">Containers for any occasion or for any location</h2>
       <p class="lead">
-        Pottery &amp; Containers paragraph 1
+        Containers dress up any location of a yard or interior of the home. They serve to accent plants as well as create a mood to the d&eacute;cor.
+        St. Mary&#39;s has a diverse collection of pottery &amp; containers for planting indoor tropical to outdoor arrangements.
       </p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+      <img class="featurette-image img-responsive rounded" data-src="holder.js/500x500/auto" alt="500x500" src="/static/img/gardencentre/500x500-potterycontainers.jpg" data-holder-rendered="true">
+    </div>
+  </div>
+    <div class="row unstyled">
+    <div class="col-md-12">
+      <p class="lead">
+        We carry a range of Concrete, fiber glass, metal, ceramic to poly. Styles come in a full 
+        spectrum of color choices when seeking traditional or trendy - brown, bronze, blue, rust, 
+        red to ivory. Whimsical, to classy elegant. Container sizes span the tiniest pots for 
+        tillandsia, to specialty orchid pots, to dramatic pieces for large colorful plantings of 
+        tropical plants.  
+      </p>
+    </div>
+  </div>
+  <div class="row unstyled featurette">
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive rounded" data-src="holder.js/500x500/auto" alt="500x500" src="/static/img/gardencentre/500x500-custompotting.jpg" data-holder-rendered="true">
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Custom Potting</h2>
+      <p class="lead">
+        Upon request, St.Mary&#39;s custom designs and plants containers for clients who desire to 
+        have an instant garden with ease.  In conversation with clients, color selections and style 
+        are readily achieved. We accept custom potting requests from residential to commercial property.
+      </p>
+    </div>
+  </div>
+    <div class="row unstyled">
+    <div class="col-md-12">
+      <p class="lead">
+        From single to multiple units we design and plant selections best suited to the plants chosen. 
+        If you have multiple pots and cannot bring them in, we can make arrangements with you to pick up and 
+        deliver back your containers - Planted and ready to go!
+      </p>
     </div>
   </div>
 </div>

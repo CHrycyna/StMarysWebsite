@@ -1,8 +1,6 @@
 <?php
 include_once 'includes/google/Google_Client.php';
 include_once 'includes/google/Google_CalendarService.php';
-include_once 'includes/google/cache/Google_Cache.php';
-include_once 'includes/google/cache/Google_FileCache.php';
 
 date_default_timezone_set('America/Chicago');
 
@@ -55,7 +53,6 @@ class EventController {
   private static function getEventList()
   {  
     $service = self::getService();
-    $cache = new Google_FileCache();
   
     $event_lists = array();
   
@@ -63,17 +60,8 @@ class EventController {
     $minDate = date('Y-m-d', strtotime($today.'-1 year')).'T00:00:00Z';
     $maxDate = date('Y-m-d', strtotime($today.'+1 year')).'T00:00:00Z';
     
-    if($cache->get(self::$calendars[0][1], self::CACHE_TIME)) {
-      for($i=0; $i<count(self::$calendars); $i++)
-      {
-        $events = $cache->get(self::$calendars[$i][1]);
-        $cal_id = self::$calendars[$i][1];
-        $event_lists[$cal_id] = $events;
-      }
-    }
-    else {
-      for($i=0; $i<count(self::$calendars); $i++)
-      {
+    for($i=0; $i<count(self::$calendars); $i++)
+    {
       $optParams = array ('timeMin' => $minDate,
           'timeMax' => $maxDate
       );
@@ -81,9 +69,8 @@ class EventController {
       $events = $service->events->listEvents(self::$calendars[$i][1], $optParams);
       $cal_id = self::$calendars[$i][1];
       $event_lists[$cal_id] = $events;
-      $cache->set($cal_id, $events);
-      }
     }
+    
     return $event_lists;
   }
   

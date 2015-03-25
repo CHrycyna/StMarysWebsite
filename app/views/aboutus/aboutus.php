@@ -10,30 +10,6 @@
   <p>We welcome you to our shopping experience. Feel at home venturing through our boutiques before wandering through 65,000 sq ft of display gardens of perennials, annuals, trees, shrubs and tropical houses.</p>
   <p>St. Mary&#39;s brings you complete selections from home to garden.</p>
   <p>Ken and I welcome you to St. Mary&#39;s Nursery &#38; Garden Centre.</p>
-  <div class="media">
-    <div class="media-left aboutus">
-      <img class="media-object aboutus" src="/static/img/about us/carla.jpg">    
-    </div>
-    <div class="media-body media-middle">
-      <h3 class="media-heading">Carla Hrycyna</h3>
-      <h5 class="media-heading">Co-Owner / President</h5>
-      <p>
-        Bio
-      </p>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-body media-middle">
-      <h3 class="media-heading">Ken Land</h3>
-      <h5 class="media-heading">Co-Owner / Secretary</h5>
-      <p>
-        Bio
-      </p>
-    </div>
-    <div class="media-right aboutus">
-      <img class="media-object aboutus" src="/static/img/about us/ken.jpg">    
-    </div>
-  </div>
 </div>
 
 

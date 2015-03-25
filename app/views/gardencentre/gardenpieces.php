@@ -1,19 +1,19 @@
 <?php include 'app/views/templates/template_garden.php' ?>
 
 <?php startblock('garden') ?>			
-<div class="jumbotron">
+<div id="gardenpieces" class="jumbotron">
   <h1 class="Outlined">Garden Pieces</h1>
 </div>
 <div class="content rounded">
   <div class="row unstyled featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Garden Pieces Heading 1</h2>
+      <h2 class="featurette-heading">Focus pieces in the garden reveal character and personality</h2>
       <p class="lead">
-        Garden Pieces paragraph 1
+        Traditional, playful to old world, we seek garden accents and statuary from across the continent and beyond.  Birdbaths, lanterns, cherubs to life size angels are just a few of the collections.  Iron works of pergola, trellising and arbors add another element to the yard.  Our creative displays of garden accents flow throughout our garden center.
       </p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+      <img class="featurette-image img-responsive rounded" data-src="holder.js/500x500/auto" alt="500x500" src="/static/img/gardencentre/500x500-gardenaccents.jpg" data-holder-rendered="true">
     </div>
   </div>
 </div>

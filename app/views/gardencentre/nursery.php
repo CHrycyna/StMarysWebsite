@@ -1,32 +1,39 @@
 <?php include 'app/views/templates/template_garden.php' ?>
 
 <?php startblock('garden') ?>			
-<div class="jumbotron">
+<div id="nursery" class="jumbotron">
   <h1>Nursery</h1>
 </div>
 <div class="content rounded">
   <div class="row unstyled featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading"></h2>
-      <p class="lead">
-        The Nursery provides a wide variety of trees and shrubs to meet all your landscaping needs.  We carry a range of sizes, from starter plants to large tree spades.
-      </p>
-      <p class="lead">
-        We have a knowledgeable staff on hand to help you in choosing from one of the largest outdoor plant selections in Winnipeg.
-      </p>   
-    </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-    </div>
-  </div>
-  <div class="row unstyled featurette">
     <div class="col-md-12">
       <h2 class="featurette-heading"></h2>
       <p class="lead">
-        We offer a guarantee on trees and shrubs and free information and help for all your gardening needs.  Below are some links to our suppliers' websites for any information you need about products we can provide you with
+        For homeowner or contractor, the nursery is comprised of both deciduous and evergreen trees, and shrubs of multiple varieties and sizing.  Ornamental, shade loving or trees favorable to attracting birds and nature to your yard, our nursery staff can assist you in your selection and provide you with the proper variety and the technique for planting.  Visit our <a href="http://plants.stmarysnurseryandgardencentre.ca/11050007">Plant Finder</a> page to source the best variety.
       </p>
+      <p class="lead">
+        Selections range in sizing from 2 galon shrubs to 2" caliper trees. Homeowners may wish to do the planting, or may opt to request a quote to have the planting done for them.
+      </p>   
     </div>
   </div>
+  
+  <div class="row unstyled">
+    <div class="col-md-12">
+      <div class="well">
+        <h4>Tall Plants Installation Tip</h4>
+        <p>
+          With the installation of taller plants or trees, making sure that the plant will stay in a 
+          vertical position in important for the growth of the plant. To ensure this it is recomended to
+          stake and tie when it is newly planted.
+        </p>
+        <p>
+          For larger tree or plants that easily catch the wind or are planted in a windy locaiton, it is recommended to add a second stake.
+          This should be placed on the opposite side of the plant to ensure proper support.
+        </p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 

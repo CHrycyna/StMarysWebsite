@@ -1,4 +1,9 @@
 <?php include 'app/views/templates/base.php' ?>
+
+<?php startblock('css')?>
+<?php superblock()?>
+<link rel="stylesheet" href="/static/css/landscaping.css">
+<?php endblock()?>
 		
 <?php startblock('content') ?>			
 <div class="row contents unstyled row-offcanvas row-offcanvas-right">

@@ -6,8 +6,10 @@
 <?php endblock()?>
 		
 <?php startblock('content') ?>
-
 <div class="contents">
+  <div id="events" class="jumbotron">
+    <h1>Events</h1>
+  </div>
 	<div class="content rounded">
 		<div class="row calendar">
 		<div class="page-header">

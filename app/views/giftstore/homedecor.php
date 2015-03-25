@@ -1,19 +1,24 @@
 <?php include 'app/views/templates/template_giftstore.php' ?>
 		
 <?php startblock('giftstore') ?>			
-<div class="jumbotron">
+<div id="homedecor" class="jumbotron">
   <h1>Home Decor</h1>
 </div>
 <div class="content rounded">
   <div class="row unstyled featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Home Decor Heading 1</h2>
+      <h2 class="featurette-heading">Unique styles of home d&eacute;cor and gifts for traditional, modern to cottage style d&eacute;cor</h2>
       <p class="lead">
-        Home Decor paragraph 1
+        
+        Wall accents from pictures to artisan metal work will dress your walls.  Candle 
+        holders, vases and d&eacute;cor plates in a collage of colors will accent many living spaces.  
+        Set the ambience with our collections of Yankee candles. Our gift shop offers you a 
+        relaxed shopping experience perfect for browsing for that perfect hostess gift, or 
+        for sourcing a undeniable d&eacute;cor piece for your home.
       </p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+      <img class="featurette-image img-responsive rounded" data-src="holder.js/500x500/auto" alt="500x500" src="/static/img/giftstore/500x500-homedecor.jpg" data-holder-rendered="true">
     </div>
   </div>
 </div>

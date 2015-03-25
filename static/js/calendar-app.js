@@ -27,8 +27,7 @@
 			var currTime = date.getTime();
 			var currEvent = 0;
 			var MAX_EVENTS = 6;
-
-			
+					
 			$.each(events, function(key, val) {
 				if(currTime < val.start && currEvent < MAX_EVENTS && val.class != 'event-important') 
 				{

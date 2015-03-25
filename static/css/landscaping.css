@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#landscaping.jumbotron {
+  background: url("/static/img/landscaping/landscaping-banner.jpg") center;
+}
+#design.jumbotron {
+  background: url("/static/img/landscaping/design-banner.jpg") center;
+}
+#installation.jumbotron {
+  background: url("/static/img/landscaping/installation-banner.jpg") center;
+}
+#commercial.jumbotron {
+  background: url("/static/img/landscaping/commercial-banner.jpg") center;
+}
+#affiliates.jumbotron {
+  background: url("/static/img/landscaping/affiliates-banner.jpg") center;
+}

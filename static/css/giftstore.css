@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#giftstore.jumbotron {
+  background: url("/static/img/giftstore/giftstore-banner.jpg") center;
+}
+#fashion.jumbotron {
+  background: url("/static/img/giftstore/fashion-banner.jpg") center;
+}
+#gourmet.jumbotron {
+  background: url("/static/img/giftstore/gourmet-banner.jpg") center;
+}
+#homedecor.jumbotron {
+  background: url("/static/img/giftstore/homedecor-banner.jpg") center;
+}
+#christmas.jumbotron {
+  background: url("/static/img/giftstore/christmas-banner.jpg") center;
+}

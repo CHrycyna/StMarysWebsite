@@ -13,7 +13,7 @@
       </p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" alt="500x500" src="/static/img/gardencentre/500x500-perennials.jpg" data-holder-rendered="true">
+      <img class="featurette-image img-responsive rounded" alt="500x500" src="/static/img/gardencentre/500x500-perennials.jpg" data-holder-rendered="true">
     </div>
   </div>
   <div class="row unstyled featurette">

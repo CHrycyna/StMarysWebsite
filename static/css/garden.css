@@ -1,33 +1,33 @@
 #annual.jumbotron {
-  background: url("/static/img/annual-banner.png") center;
+  background: url("/static/img/gardencentre/annual-banner.png") center;
 }
 #fountainsponds.jumbotron {
-  background: url("/static/img/fountainsponds-banner.jpg") center;
+  background: url("/static/img/gardencentre/fountainsponds-banner.jpg") center;
 }
 #fruitsvegetables.jumbotron {
-  background: url("/static/img/fruitsvegetables-banner.jpg") center;
+  background: url("/static/img/gardencentre/fruitsvegetables-banner.jpg") center;
 }
 #garden.jumbotron {
-  background: url("/static/img/garden-banner.png") center;
+  background: url("/static/img/gardencentre/garden-banner.png") center;
 }
 #gardenpieces.jumbotron {
-  background: url("/static/img/garden-banner.png") center;
+  background: url("/static/img/gardencentre/gardenpieces-banner.png") center;
 }
 #largestock.jumbotron {
-  background: url("/static/img/perennial-banner.png") center;
+  background: url("/static/img/gardencentre/largestock-banner.png") center;
 }
 #nursery.jumbotron {
-  background: url("/static/img/perennial-banner.png") center;
+  background: url("/static/img/gardencentre/nursery-banner.png") center;
 }
 #perennial.jumbotron {
-  background: url("/static/img/perennial-banner.png") center;
+  background: url("/static/img/gardencentre/perennial-banner.png") center;
 }
 #plantfinder.jumbotron {
-  background: url("/static/img/plantfinder-banner.png") center;
+  background: url("/static/img/gardencentre/plantfinder-banner.jpg") center;
 }
 #potterycontainers.jumbotron {
-  background: url("/static/img/garden-banner.png") center;
+  background: url("/static/img/gardencentre/potterycontainer-banner.jpg") center;
 }
 #tropicals.jumbotron {
-  background: url("/static/img/tropicals-banner.jpg") center;
+  background: url("/static/img/gardencentre/tropicals-banner.jpg") center;
 }

@@ -216,14 +216,15 @@ JQTWEET = {
 };		
 
 });
-
 // start jqtweet!
 $(document).ready(function () {
 // start jqtweet!
 JQTWEET.loadTweets();
 CAROUSEL.loadCarousel();
 });
-
+$("#newsletter-badge").click(function() {
+	$("#newsletterModal").modal('toggle');
+});
 jQuery(function($) {
 	$("#twitter-div").bind('scroll', function() {
 		if($(this).scrollTop() + $(this).innerHeight() >= this.scrollHeight) {

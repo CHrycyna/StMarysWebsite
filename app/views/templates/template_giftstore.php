@@ -1,5 +1,10 @@
 <?php include 'base.php' ?>
-		
+
+<?php startblock('css')?>
+<?php superblock()?>
+<link rel="stylesheet" href="/static/css/giftstore.css">
+<?php endblock()?>
+
 <?php startblock('content') ?>			
 <div class="row contents unstyled row-offcanvas row-offcanvas-right">
   <div class="col-xs-12 col-sm-9">
